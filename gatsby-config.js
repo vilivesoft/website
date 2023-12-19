@@ -9,6 +9,14 @@ module.exports = {
     plugins: [
         "gatsby-plugin-sass",
         // "gatsby-plugin-google-gtag",
+        {
+            resolve: `gatsby-plugin-s3`,
+            options: {
+                bucketName: "vilivesoft-website-bucket",
+                region: 'us-east-1',
+                removeNonexistentObjects: true
+            },
+        },
         "gatsby-plugin-image",
         "gatsby-plugin-sitemap", {
             resolve: 'gatsby-plugin-manifest',

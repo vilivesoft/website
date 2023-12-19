@@ -15,9 +15,9 @@ const Hero = ({ title, content }) => (
       )}
         <div>
             <p>
-                We think, at vilivesoft, that most of the things that makes our days are with the interaction
-                that we do with small business, and a world of innovation opportunities that can make our lives
-                easier, and better are waiting to happen;
+                At vilivesoft we think that most of the things that make our days are the interaction
+                that we do with small business and a world of innovation opportunities that can make our lives
+                more accessible, and better are waiting to happen;
             </p>
         </div>
     </div>
